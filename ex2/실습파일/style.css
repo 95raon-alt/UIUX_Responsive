@@ -1,0 +1,8 @@
+.line1 {
+    border-top: 1px solid #000;
+    position: relative;
+}
+.width {
+    transform: translateX(50%);
+
+}
