@@ -7,7 +7,7 @@
 
 /* 1599px 부터 동작하는 코드 */
 /* (max-width: ) 세미콜론X */
-@media screen and (min-width: 1599px) {
+@media screen and (max-width: 1599px) {
     /* 선택자는 원하는대로 클래스 선택자 or 태그 선택자 등.. */
     .box {
         background-color: gray;
