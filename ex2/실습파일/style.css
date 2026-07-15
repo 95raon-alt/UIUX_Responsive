@@ -1,8 +1,8 @@
 /* body {border: 1px solid red;} */
 .line1 {
-    border-top: 1px solid red;
+    border-top: 1px solid #000;
     position: relative;
-    transform: translateY(25%);
+    transform: translateY(25px);
 }
 .width {
     border: 1px solid orange;
@@ -11,11 +11,10 @@
     left: 50%;
 }
 .h-ln1, .h-ln2, .h-ln3, .h-ln4 {
-    /* border: 1px solid green; */
     position: absolute;
     border-right: 1px solid #000;
     height: 50px;
-    top: 50px;
+    top: 50%;
     transform: translateY(-50%);
 }
 .h-ln1 {
@@ -29,4 +28,44 @@
 }
 .h-ln4 {
     left: 1440px;
+}
+.h-ln::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.h-ln1::after {content: "360";}
+.h-ln2::after {content: "760";}
+.h-ln3::after {content: "1080";}
+.h-ln4::after {content: "1440";}
+.box1 {
+    width: 300px; height: 300px;
+    position: fixed;
+    background-color: #a7a7a7;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s;
+}
+body {height: 100vh;}
+body:hover > .box1 {
+    transform: translate(-40%, -40%);
+}
+.box2 {
+    position: absolute;
+    width: 61px; height: 20px;
+    background-color: green;
+    top: 26px; left: 1441px;
+    transform: translatex(-50%);
+}
+.box2:hover {
+    transform: translateX(0);
+    /* position: absolute; */
+    /* left: 50%; */
+}
+
+@media screen and (max-width: 1080px) {
+    .box2 {
+        left: 1080px;
+    }    
 }
