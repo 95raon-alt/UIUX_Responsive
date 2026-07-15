@@ -1,0 +1,49 @@
+.box1 {
+    width: 300px; height: 300px;
+    /* absolute로 사용하면 안되나요? */
+    position: absolute;
+    background-color: #a7a7a7;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s;
+}
+body{height: 100vh;}
+body:hover > .box1 {
+    transform: translate(-25%, -25%);
+}
+.box2 {
+    width: 50px; height: 20px;
+    background-color: green;
+    position: absolute;
+    left: 1440px; top: 25px;
+    
+}
+.line1 {
+    border-top: 1px solid #000;
+    position: relative;
+    transform: translateY(25%);
+}
+.width {
+    position: absolute;
+    transform: translate(-50%, 100px);
+    left: 50%; 
+}
+.h-ln1, .h-ln2, .h-ln3, .h-ln4 {
+    position: absolute;
+    border-right: 1px solid #000;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-ln1 {
+    left: 360px;
+}
+.h-ln2 {
+    left: 760px;
+}
+.h-ln3 {
+    left: 1080px;
+}
+.h-ln4 {
+    left: 1440px;
+}
