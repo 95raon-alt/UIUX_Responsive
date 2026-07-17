@@ -1,9 +1,9 @@
 /* Component */
-.tr-3 {transition: 0.3S;}
-.tr-5 {transition: 0.5S;}
-.tr-7 {transition: 0.7S;}
+.tr-3{transition: 0.3s;}
+.tr-5{transition: 0.5s;}
+.tr-7{transition: 0.7s;}
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin-left: auto; margin-right: auto;
 }
 
@@ -11,7 +11,6 @@ header {
     height: 100px;
     background-color: #333;
 }
-
 .s1-cd3 {
     background-color: #d1d0d0;
     padding-top: 100px;
@@ -19,15 +18,13 @@ header {
 }
 .s1-cd3-con {
     display: flex; gap: 40px;
-    
 }
 .cd3-in {
     background-color: #333;
-    height: 500px;
+    height: 500px; 
     flex-grow: 1; flex-basis: 0;
 }
-
-footer{
+footer {
     height: 500px;
     background-color: #333;
 }
