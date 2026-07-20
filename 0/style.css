@@ -1,0 +1,13 @@
+.box01 {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.box01-1 {
+    width: 50%;
+    height: 50%;
+    background-color: palevioletred;
+}
+.box01-1 > p {
+    font-size: 5em;
+}

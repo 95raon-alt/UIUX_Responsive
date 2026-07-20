@@ -3,7 +3,9 @@
 .tr-5 {transition: 0.5S;}
 .tr-7 {transition: 0.7S;}
 .container {
-    max-width: 1440px;
+    /* width -> 고정, 반응형에서는 가로 스크롤 x */
+    /* .container는 최소 320px 최대 1440px 유연하게 동작 */
+    min-width: 320px; max-width: 1440px;
     margin-left: auto; margin-right: auto;
 }
 
