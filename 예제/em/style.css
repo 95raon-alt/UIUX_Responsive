@@ -1,0 +1,15 @@
+/* p = 1em, p의 부모요소 body = 16px  */
+/* em: 부모요소에 의해 상대적으로 크기가 결정 */
+body {
+    font-size: 20px;
+}
+.button {
+    font-size: 1em;
+    padding: 12px;
+}
+.p-1 {
+    font-size: 2em;
+}
+.p-2 {
+    font-size: 2em;
+}

@@ -1,0 +1,10 @@
+/* rem: 루트요소에 의해 상대적으로 크기가 결정 */
+body {
+    font-size: 20px;
+}
+.p-1 {
+    font-size: 2rem;
+}
+.p-2 {
+    font-size: 2rem;
+}
