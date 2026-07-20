@@ -1,10 +1,14 @@
 .box01 {
     width: 500px;
     height: 500px;
-    background-color: aqua;
+    background-color: gray;
 }
 .box01-1 {
     width: 50%;
     height: 50%;
-    background-color: palevioletred;
+    background-color: green;
 }
+/* 
+1. [.box01-1]의 너비와 높이는 몇 px인가?
+2. %는 무엇을 기준으로 계산되는가?
+*/
